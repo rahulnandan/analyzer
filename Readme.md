@@ -9,7 +9,7 @@ Please craete a virtual environment before running the setup.
 Install all the dependencies  
 
 ```bash
-python -m venev analyzer
+python -m venv analyzer
 .\analyzer\Scripts\activate
 pip install requirements.txt
 ```
