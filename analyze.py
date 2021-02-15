@@ -56,7 +56,7 @@ def Percent_success(df):
     dt = df.sort_values("status")["status"]
     filter1 = dt >= 200
     filter2 = dt < 400
-    success_percent = (dt.where(filter1 & filter2).count()/dt.count())*100
+    success_percent = (dt.where(filter1 | filter2).count()/dt.count())*100
     print("Total success percent is: {0}%".format(
         format(success_percent, '.2f')))
 
