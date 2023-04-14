@@ -1,4 +1,4 @@
-# Rahul's apache log analyzer
+# Apache log analyzer
 
 Apache log analyzer is a service through which one can analyze the Apache log files.  
 This is based upon apachelogs python library, it uses pandas and matplotlib for reporting.  
